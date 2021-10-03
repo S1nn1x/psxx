@@ -6,18 +6,11 @@
 --OKAY???
 
 
-pcall(
- function()
-  local DisableGUI = game:GetService("StarterGui")
-               DisableGUI:SetCore("TopbarEnabled", false)
-
-end)
-
-
-
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local ImageLabel = Instance.new("ImageLabel")
+
+--Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
