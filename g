@@ -23,6 +23,6 @@ Frame.Size = UDim2.new(1, 0, 1, 0)
 ImageLabel.Parent = Frame
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.00
-ImageLabel.Position = UDim2.new(0, 0, 0, 0)
+ImageLabel.Position = UDim2.new(0,5, 0, 0, 0)
 ImageLabel.Size = UDim2.new(0, 400, 0, 284)
 ImageLabel.Image = "rbxassetid://7590606326"
