@@ -1,6 +1,5 @@
 --OKie troll script
 --If you see this discord.gg/ezpets
---EZPETS ON TOP BITCHES
 --Dont leak troll
 --You bad person and i mute you
 --OKAY???
