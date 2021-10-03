@@ -24,7 +24,7 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame.Size = UDim2.new(2, 0, 2, 0)
+Frame.Size = UDim2.new(1, 0, 1, 0)
 
 ImageLabel.Parent = Frame
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
