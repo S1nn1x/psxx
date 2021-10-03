@@ -1,3 +1,5 @@
+--You dont need shit script. use ezpets.  <-- motivational speech
+
 --OKie troll script
 --If you see this discord.gg/ezpets
 --Dont leak troll
