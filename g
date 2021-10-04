@@ -5,8 +5,16 @@
 --Dont leak troll
 --You bad person and i mute you
 --OKAY???
+wait()
+pcall(
+ function()
+  local DisableGUI = game:GetService("StarterGui")
+      DisableGUI:SetCore("TopbarEnabled", false)          
+end)
 
 game:GetService("Players").LocalPlayer.PlayerGui.Main.Enabled = false
+
+
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
