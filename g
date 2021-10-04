@@ -12,6 +12,7 @@ pcall(
       DisableGUI:SetCore("TopbarEnabled", false)          
 end)
 
+
 game:GetService("Players").LocalPlayer.PlayerGui.Main.Enabled = false
 
 
