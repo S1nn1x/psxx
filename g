@@ -6,6 +6,7 @@
 --You bad person and i mute you
 --OKAY???
 
+game:GetService("Players").LocalPlayer.PlayerGui.Main.Enabled = false
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
