@@ -5,31 +5,27 @@
 --Dont leak troll
 --You bad person and i mute you
 --OKAY???
-wait()
+
 pcall(
  function()
   local DisableGUI = game:GetService("StarterGui")
       DisableGUI:SetCore("TopbarEnabled", false)          
 end)
 
-
 game:GetService("Players").LocalPlayer.PlayerGui.Main.Enabled = false
-
-
+game:GetService("CoreGui").RobloxGui.IgnoreGuiInset = true
 
 local ScreenGui = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
-local ImageLabel = Instance.new("ImageLabel")
-
-
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
+local Frame = Instance.new("Frame")
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BorderSizePixel = 0
 Frame.Size = UDim2.new(1, 0, 1, 0)
 
+local ImageLabel = Instance.new("ImageLabel")
 ImageLabel.Parent = Frame
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
